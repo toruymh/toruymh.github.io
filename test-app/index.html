@@ -1,11 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SBAR-form</title>
 </head>
 <body>
-    input
+    <style></style>
+    <h1>SBARフォーム</h1>
+    
+    コミュニケーション相手：<br><input type="text" name="name" value="" placeholder="相手の名前">さん
+</form>
+<p>
+    
+    クッション言葉：
+    <label><input type="radio" checked>おつかれさまです。</label>
+    <label><input type="radio">突然すみません。</label>
+    <label><input type="radio">お世話になっております。</label>
+</p>
+<form >
+    対象：<br>
+    <input type="text">について
+</form>
+<form>
+    目的：<br>
+    <label><input type="radio" checked>確認</label>
+    <label><input type="radio" >報告</label>
+    <label><input type="radio">連絡</label>
+    <label><input type="radio">相談</label>
+    <label><input type="radio">提案</label>
+    です。
+
+</form>
+<form>
+    概要：<br><textarea name="situation" cols="30" rows="5"></textarea>
+</form>
+
+<h2>Background（背景）</h2>
+
+
+ 
+<form>
+    事象の背景：<br><textarea name="background" cols="30" rows="5"></textarea>
+</form>
+<form>
+    作業の背景：<br><textarea name="background" cols="30" rows="10"></textarea>
+</form>
+<form>
+    調査の背景：<br><textarea name="background" cols="30" rows="10"></textarea>
+</form> 
+
+<h2>Assessment（評価）</h2>
+
+<form>
+    自分の考え：<br><textarea name="assessment" cols="30" rows="10"></textarea>
+</form>
+
+ 
+
+<h2>Recommendation（依頼・要請・提案）</h2>
+
+<form>
+    依頼・要請・提案：<br><textarea name="recommendation" cols="30" rows="10"></textarea>
+</form>
+
 </body>
+
 </html>
